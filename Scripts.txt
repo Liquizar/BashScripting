@@ -1,0 +1,26 @@
+Oues] What are Scripts? 
+
+Answer] 
+	
+	Series of commands to achieve something
+	
+	These commands are executed by an interpreter (Here shell acts as an
+	interpreter)
+	
+	Any command in a format can be written into a script
+	
+
+Oues] Why do we need it?
+
+Answer]
+	To automate mundane tasks and save some time.
+	
+Example]
+	#!/bin/bash
+	
+	echo "Hello, World!"
+	
+	(Need of #! before the script, the script runs using your shell.
+	It might or might not run, as different shells have a bit of 
+	varying syntaxes.)
+

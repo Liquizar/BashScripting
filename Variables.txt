@@ -1,0 +1,24 @@
+############################ VARIABLES ############################
+
+- Storage location having a name or a Name-Value pair.
+
+- Case sensitive 
+
+- No spaces before or after the = sign
+
+- Uppercase
+
+- Syntax:
+	
+	VAR_NAME="Any Value"
+
+- Ex: 
+	#!/bin/bash
+	
+	SHELL_NAME="bash"
+	echo "I am $SHELL_NAME"		-> I am bash
+	echo "I am "${SHELL_NAME}ing	-> I am bashing
+	
+	** If you don't give a curly brace, the shell will treat it as an
+	   additional text
+
